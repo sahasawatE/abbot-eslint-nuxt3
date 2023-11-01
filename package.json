@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-abbot-nuxt3",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "this eslint rule is for vue3, nuxt3, typescript",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehezkielgunawan/eslint-yehezgun.git"
+  },
+  "author": "Sahasawat Uengwanitchaphan",
   "license": "MIT",
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",

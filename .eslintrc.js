@@ -20,6 +20,7 @@ module.exports = {
     "no-irregular-whitespace": ["off"],
     "no-var": ["warn"],
     camelcase: ["off"],
+    "comma-dangle": 0,
     "prettier/prettier": [
       "error",
       {

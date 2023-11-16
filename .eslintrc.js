@@ -68,5 +68,11 @@ module.exports = {
     "vue/attributes-order": ["warn"],
     "vue/padding-line-between-blocks": ["error", "always"],
     "vue/no-v-model-argument": ["off"],
+    "vue/valid-v-slot": [
+      "off",
+      {
+        allowModifiers: true,
+      },
+    ],
   },
 };

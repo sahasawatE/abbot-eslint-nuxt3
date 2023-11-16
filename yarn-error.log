@@ -2,7 +2,7 @@ Arguments:
   /Users/sahasawate/.nvm/versions/node/v20.8.0/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/Users/sahasawate/.bun/bin:/Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/Users/sahasawate/.bun/bin:/Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/sahasawate/Applications/flutter/bin:/Users/sahasawate/Library/Android/sdk/tools:/Users/sahasawate/Library/Android/sdk/platform-tools:Users/sahasawate/Applications/flutter/bin:/Users/sahasawate/Library/Android/sdk/tools:/Users/sahasawate/Library/Android/sdk/platform-tools:Users/sahasawate/Applications/flutter/bin
+  /Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/Users/sahasawate/.bun/bin:/Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/Users/sahasawate/.bun/bin:/Users/sahasawate/.nvm/versions/node/v20.8.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/sahasawate/Applications/flutter/bin:/Users/sahasawate/Library/Android/sdk/tools:/Users/sahasawate/Library/Android/sdk/platform-tools:Users/sahasawate/Applications/flutter/bin:/Users/sahasawate/Library/Android/sdk/tools:/Users/sahasawate/Library/Android/sdk/platform-tools:Users/sahasawate/Applications/flutter/bin
 
 Yarn version: 
   1.22.19
@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
     "name": "eslint-config-abbot-nuxt3",
-    "version": "0.0.4",
+    "version": "0.0.9",
     "description": "this eslint rule is for vue3, nuxt3, typescript",
     "main": "index.js",
     "scripts": {
@@ -38,6 +38,11 @@ npm manifest:
       "lint": "yarn lint:js && yarn lint:prettier",
       "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
     },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sahasawatE/abbot-eslint-nuxt3.git"
+    },
+    "author": "Sahasawat Uengwanitchaphan",
     "license": "MIT",
     "dependencies": {
       "@nuxtjs/eslint-config-typescript": "^12.1.0",

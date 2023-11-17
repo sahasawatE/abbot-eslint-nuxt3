@@ -74,5 +74,6 @@ module.exports = {
         allowModifiers: true,
       },
     ],
+    "vue/no-v-for-template-key": ["off"],
   },
 };

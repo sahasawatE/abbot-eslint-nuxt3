@@ -17,6 +17,7 @@ module.exports = {
   plugins: ["prettier"],
   rules: {
     "import/default": ["off"],
+    "import/no-named-as-default-member": ["off"],
     "no-irregular-whitespace": ["off"],
     "no-var": ["warn"],
     camelcase: ["off"],

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-abbot-nuxt3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "this eslint rule is for vue3, nuxt3, typescript",
   "main": "index.js",
   "scripts": {

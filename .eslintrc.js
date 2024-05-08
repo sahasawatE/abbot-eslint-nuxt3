@@ -44,7 +44,7 @@ module.exports = {
     ],
     "vue/component-api-style": [
       "error",
-      ["composition", "options", "script-setup"], // "script-setup", "composition", "composition-vue2", or "options"
+      ["composition", "options"], // "script-setup", "composition", "composition-vue2", or "options"
     ],
     "vue/component-name-in-template-casing": [
       "error",
